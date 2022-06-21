@@ -22,9 +22,9 @@ drawings:
 ---
 
 # Backstage Demo
-
- Cory D.
- Tamer A.
+Co-hosted by
+ - Cory D.
+ - Tamer A.
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/bitspire/backstage-meetup" target="_blank" alt="GitHub"
