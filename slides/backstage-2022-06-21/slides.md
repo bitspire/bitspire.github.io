@@ -9,21 +9,19 @@ class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # show line numbers in code blocks
-lineNumbers: false
+lineNumbers: true
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Tech At Scale: Backstage Meetup
+  Backstage Meetup 21st June, 2022
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Learn more at [Tech At Scale](https://www.meetup.com/tech-at-scale-toronto-meetup/events/286536503/)
 # persist drawings in exports and build
 drawings:
   persist: false
 ---
 
-# Welcome to Slidev
-
-Presentation slides for developers
+# Backstage Deep Dive
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -32,10 +30,7 @@ Presentation slides for developers
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
+  <a href="https://github.com/bitspire/backstage-meetup" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
