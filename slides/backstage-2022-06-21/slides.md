@@ -42,7 +42,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
+# What is Backstage?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
@@ -78,16 +78,16 @@ h1 {
 
 ---
 
-# Navigation
+# The Basics
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
 
-### Keyboard Shortcuts
+### Getting Started
 
 |     |     |
 | --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
+| yarn create-plugin | To create a Frontend Plugin |
+| yarn create-plugin --backend | To create a Backend Plugin |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
 
